@@ -1,14 +1,13 @@
-const menu_button = document.getElementById('hamburger');
+const menuButton = document.getElementById('hamburger');
 
-menu_button.addEventListener('click', () => {
+menuButton.addEventListener('click', () => {
   document.querySelector('.mobile-nav').style.display = 'block';
-  menu_button.style.display = 'none';
-  console.log('here');
+  menuButton.style.display = 'none';
 });
 
-const close_button = document.getElementById('close-button');
+const closeButton = document.getElementById('close-button');
 
-close_button.addEventListener('click', () => {
+closeButton.addEventListener('click', () => {
   document.querySelector('.mobile-nav').style.display = 'none';
-  menu_button.style.display = 'block';
+  menuButton.style.display = 'block';
 });
