@@ -416,6 +416,53 @@ textarea {
     brightness(92%) contrast(82%);
 }
 
+.mobile-nav {
+  display: none;
+}
+
+.show {
+  display: flex;
+}
+
+.mobile-nav {
+  display: none;
+  position: fixed;
+  background-color: #3c3a39;
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+}
+
+.mobile-nav > ul > li > a {
+  color: #fff5e1;
+  font-size: 32px;
+  font-family: "inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.mobile-nav > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  height: 100%;
+}
+
+.mobile-menu > li > hr {
+  margin: 0 24px 24px 24px;
+  border-top: 0;
+}
+
+#close-button {
+  float: right;
+}
+
+
 @media all and (min-width: 720px) {
   .top-social {
     flex-direction: column;
