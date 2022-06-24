@@ -11,3 +11,12 @@ closeButton.addEventListener('click', () => {
   document.querySelector('.mobile-nav').style.display = 'none';
   menuButton.style.display = 'block';
 });
+
+const navLinksAll = document.querySelectorAll('.mobile-nav-link');
+
+navLinksAll.forEach((link) => {
+  link.addEventListener('click', () => {
+    document.querySelector('.mobile-nav').style.display = 'none';
+    menuButton.style.display = 'block';
+  });
+});

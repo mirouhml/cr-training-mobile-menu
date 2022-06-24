@@ -441,6 +441,7 @@ textarea {
     font-style: normal;
     font-weight: 700;
     text-decoration: none;
+    width: fit-content;
   }
 
   .mobile-nav > ul {
@@ -451,13 +452,11 @@ textarea {
     height: 100%;
   }
 
-  .mobile-menu > li > hr {
-    margin: 0 24px 24px 24px;
-    border-top: 0;
-  }
-
-  #close-button {
-    float: right;
+  .mobile-nav ul > li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
   }
 }
 
@@ -502,7 +501,8 @@ textarea {
     margin-right: 10vw;
   }
 
-  .nav-link {
+  .nav-link,
+  .mobile-nav-link {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -514,7 +514,8 @@ textarea {
     transition: 350ms;
   }
 
-  .nav-link:hover {
+  .nav-link:hover,
+  .mobile-nav-link:hover {
     border: 1px solid #d2d5db;
   }
 

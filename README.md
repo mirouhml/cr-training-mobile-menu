@@ -14,6 +14,7 @@ No link yet.
 
 - HTML
 - CSS
+- JavaScript
 - VSCode
 
 ## Authors
