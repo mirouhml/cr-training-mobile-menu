@@ -1,6 +1,41 @@
-# curriculum-cr-training-mobile-menu
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Portfolio
+
+This is my personal portfolio where I will be adding new projects as I finish them, you can find information about me there as well as my projects and the technologies I use, and also you can reach out to me through the contact me form in the website.
+
+![screenshot](./screenshot.png)
+
+## Live Demo
+
+No link yet.
+
+## Built With
+
+- HTML
+- CSS
+- JavaScript
+- VSCode
+
+## Authors
+
+👤 **Mirouhml**
+
+- GitHub: [@mirouhml](https://github.com/mirouhml)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ammar-hamlaoui-514909189/)
+- Twitter: [@kuronomirou](https://twitter.com/kuronomirou)
 
 
-This repo host an initial code for the tasks performed during the Code Reviewers training.
+## 🤝 Contributing
 
-Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEViw3QasuJLPLVT/Microverse-Student-Potfolio-Templates-Main?node-id=1%3A1471).
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
